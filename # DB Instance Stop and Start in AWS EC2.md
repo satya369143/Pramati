@@ -5,7 +5,7 @@
   - **sudo su - postgres**
 - Stop Command for postgres:
   - **/usr/lib/postgresql/10/bin/pg_ctl -D $PGDATA stop**
-  - **$PGDATA = /opt/postgres/coredb/10 (**data_directory).
+  - **$PGDATA** = **/opt/postgres/coredb/10** (data_directory).
 - Start Command for postgres:
   - **/usr/lib/postgresql/10/bin/pg_ctl -D $PGDATA start**
 - Status Command for postgres:
